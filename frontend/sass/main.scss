@@ -1,0 +1,57 @@
+$border-color: #000;
+$color-atrribute-style: #0086b3;
+$color-string: #183691;
+$color-tag-name: #63a35c;
+$color-class-name: #795da3;
+$color-comment: #969896;
+$color-variable-name: #795da3;
+$color-var-word: #a71d5d;
+$color-this-word: #ed6a43;
+$color-pagination: #869791;
+$cube-width: 800px;
+
+
+body {
+	background-image: url(../images/graphy.png);
+	font: 1em 'PT Sans', Arial;
+	margin: 0;
+	padding: 0;
+}
+h1, h3, p {
+	margin: 0;
+}
+.field {
+	width: 1100px;
+	height: 100vh;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.attribute-style {
+	color: $color-atrribute-style;
+}
+.string {
+	color: $color-string;
+}
+.tag-name {
+	color: $color-tag-name;
+}
+.class-name {
+	color: $color-class-name;
+}
+.comment {
+	color: $color-comment;
+}
+.var-word {
+	color: $color-var-word;
+}
+.this-word {
+	color: $color-this-word;
+}
+.variable-name {
+	color: $color-variable-name;
+}
+
+@import 'menu.scss';
+@import 'cube.scss';
+@import 'media.scss';

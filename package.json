@@ -1,0 +1,28 @@
+{
+  "name": "cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "common.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Michael Voloshyn",
+    "email": "michael.voloshyn@gmail.com"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mickeyvol1504/cv"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "del": "^2.2.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-debug": "^2.1.2",
+    "gulp-if": "^2.0.0",
+    "gulp-newer": "^1.1.0",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^2.0.0-alpha"
+  }
+}
